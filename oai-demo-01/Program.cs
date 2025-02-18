@@ -12,7 +12,6 @@ AzureOpenAIClient azureClient = new(
     new Uri(endpoint),
     new AzureKeyCredential(key));
 
-// This must match the custom deployment name you chose for your model
 ChatClient chatClient = azureClient.GetChatClient("gpt-4o");
 
 ChatCompletion completion = chatClient.CompleteChat(
