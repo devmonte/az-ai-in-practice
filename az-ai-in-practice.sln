@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oai-demo-01", "oai-demo-01\oai-demo-01.csproj", "{C77E2239-445E-4F02-B21F-7E5ADE1B470B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oai-demo-02", "oai-demo-02", "{87897361-81B3-42D1-BBEE-530B3BF7BE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oai-demo-02", "oai-demo-02\oai-demo-02\oai-demo-02.csproj", "{81B4726D-3238-4AA7-8774-220B8E18B2DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,18 @@ Global
 		{C77E2239-445E-4F02-B21F-7E5ADE1B470B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77E2239-445E-4F02-B21F-7E5ADE1B470B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77E2239-445E-4F02-B21F-7E5ADE1B470B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B4726D-3238-4AA7-8774-220B8E18B2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B4726D-3238-4AA7-8774-220B8E18B2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B4726D-3238-4AA7-8774-220B8E18B2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B4726D-3238-4AA7-8774-220B8E18B2DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {492352EE-F9AA-4812-B797-EDBEACB684FD}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81B4726D-3238-4AA7-8774-220B8E18B2DB} = {87897361-81B3-42D1-BBEE-530B3BF7BE90}
 	EndGlobalSection
 EndGlobal
